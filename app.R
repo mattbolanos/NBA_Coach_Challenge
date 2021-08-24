@@ -20,15 +20,15 @@ library(shinythemes)
 plan('multicore')
 
 #
-db <- 'postgres'
+db <- ''
 
-host_db <- 'nba-shots-hot-hand.crmgvw22m9mc.us-east-2.rds.amazonaws.com'
+host_db <- ''
 #
-db_port <- '5432'
+db_port <- ''
 #
-db_user <- 'mattbolanos'
+db_user <- ''
 #
-db_password <- 'General30!'
+db_password <- '!'
 #
 con <-
   dbConnect(
