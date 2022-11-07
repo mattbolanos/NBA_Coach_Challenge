@@ -1,0 +1,131 @@
+/* import font */
+@import url(https://fonts.googleapis.com/css?family=Karla);
+
+/* Misc text */
+.tag {
+  display: inline-block;
+  padding: 2px 12px;
+  border-radius: 15px;
+  font-weight: 600;
+  font-size: 12px;
+}
+
+.title {
+  font-size:35px; 
+  font-family:Georgia; 
+  color:black;
+  margin-left:30px; 
+  width:70%; 
+  text-align:center
+}
+
+.down_btn {
+  
+  color: white;
+  background: black;,
+  font-family: 'Karla';
+}
+
+/* Status badges */
+.status-won {
+  background: hsl(116, 60%, 90%);
+  color: hsl(116, 30%, 25%);
+}
+
+.status-ost {
+  background: hsl(350, 70%, 90%);
+  color: hsl(350, 45%, 30%);
+}
+
+.status-posses {
+  background: hsl(230, 70%, 90%);
+  color: hsl(230, 45%, 30%);
+}
+
+.status-foul {
+  background: hsl(350, 70%, 90%);
+  color: hsl(350, 45%, 30%);
+}
+
+.status-goal {
+  background: hsl(116, 60%, 90%);
+  color: hsl(116, 30%, 25%);
+}
+
+.status-jump {
+  background: hsl(30, 70%, 90%);
+  color: hsl(30, 45%, 30%);
+}
+
+.status-off {
+  background: hsl(60, 90%, 65%);
+  color: hsl(60, 45%, 20%);
+}
+
+.status-pos {
+  background: hsl(116, 60%, 90%);
+  color: hsl(116, 30%, 25%);
+}
+
+.status-neg {
+  background: hsl(350, 70%, 90%);
+  color: hsl(350, 45%, 30%);
+}
+
+.status-even {
+  background: hsl(30, 70%, 90%);
+  color: hsl(30, 45%, 30%);
+}
+
+.status-true {
+  background: hsl(116, 60%, 90%);
+  color: hsl(116, 30%, 25%);
+}
+
+.status-false {
+  background: hsl(350, 70%, 90%);
+  color: hsl(350, 45%, 30%);
+}
+
+/* reactable thangs */
+.tippy-tooltip {
+  font-size: 12.75px;
+  padding: 0.3rem 0.6rem;
+}
+
+.header,
+.group-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.header {
+  border-bottom-color: #555;
+  font-size: 13px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.border-left {
+  border-left: 2px solid #555;
+}
+
+.cell {
+  box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
+}
+
+.label-default {
+  background-color: #ff8c00;
+}
+
+.material-switch {
+  font-size: 15px;
+  line-height: 1.4;
+  color: #222222;
+  box-sizing: border-box;
+  margin-top: 3%;
+  margin-left: -23%;
+  font-weight: bold;
+  font-family: Georgia;
+}
