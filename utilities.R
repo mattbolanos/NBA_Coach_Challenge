@@ -132,6 +132,8 @@ create_chall_table <- function(table_data) {
         score_margin = colDef(
           name = "Margin",
           width = 85,
+          html = TRUE,
+          header = with_tooltip("Margin", "Challenging team's score &minus; opponent's score at time of challenge"),
           cell = function(value) {
             if (value > 0) {
               value <- paste0("+", value)
